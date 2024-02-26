@@ -1,8 +1,6 @@
 package day01;
 
 import java.util.ArrayList;
-
-
 //for문 : 일반 for, 향상된 for
 public class Example04 {
 	public static void main(String[] args) {
