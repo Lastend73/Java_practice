@@ -1,0 +1,15 @@
+day1_2 패키지를 만들고
+1. GusetBook 클래스를 작성하시오
+		번호, 내용, 작성자, 작성일, 조회수
+2. GuestBookServive 클래스를 작성하시오
+			findAll()
+			findById(Long) -> 번호를 주면 GuestBook을 찾아서 리턴
+			Save()
+			delete()
+3. GuestBookService를 테스트하시오
+   테스트는 정답이 있는것 아니라...
+   public void findByIdTest(){
+   		// 1번 방명록만 있다면
+   		assertNotNull(service.findByid(1L));
+   		assertNull(service.findByid(222L));
+   }
